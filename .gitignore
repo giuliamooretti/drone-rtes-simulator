@@ -1,0 +1,15 @@
+# Build directory (CMake)
+build/
+cmake-build-*/
+
+# Output di log generato a runtime (percorso scritto da src/monitor.c)
+logs/*.csv
+
+# File di editor/IDE
+.vscode/
+.idea/
+*.swp
+
+# File di sistema
+.DS_Store
+Thumbs.db
